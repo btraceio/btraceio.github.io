@@ -11,6 +11,8 @@ Plain static HTML. No build step, no Jekyll (`.nojekyll`).
 | `assets/site.css` | Page styles (dark CRT variant of the Modernist design system). |
 | `assets/modernist.css` | Modernist design-system tokens and base components. |
 | `assets/org.js` | Fetches stars, latest release and 52-week commit activity from the GitHub API. Caches for 1 hour in `localStorage`. |
+| `assets/track.js` | Sends a GoatCounter event `click: <host><path>` for each click on a link that leaves the page. |
+| GoatCounter | `index.html` loads `gc.zgo.at/count.js` and reports page views to https://btrace.goatcounter.com/. No cookies. |
 | `icon/` | BTrace 3.0.0 icon set (SVG + PNG sizes). |
 
 ## Preview locally
